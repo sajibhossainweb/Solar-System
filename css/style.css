@@ -1,0 +1,381 @@
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.neptune {
+    width: 650px;
+    height: 650px;
+    background: transparent;
+    border-radius: 50%;
+    position: relative;
+    animation: neptune 14s linear infinite;
+}
+
+@keyframes neptune {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.neptune_img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    top: 45%;
+    left: -6%;
+}
+
+.neptune_img img {
+    width: 80px;
+    height: 80px;
+}
+
+/* ===================================================== */
+.uranus {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: transparent;
+    border-radius: 50%;
+    top: 4%;
+    left: 4%;
+    animation: uranus 14s linear infinite;
+}
+
+@keyframes uranus {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.uranus_img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    border-radius: 50%;
+    top: 11%;
+    left: 7%;
+
+}
+
+.uranus_img img {
+    width: 70px;
+    height: 70px;
+}
+
+/* ============================================ */
+.satrun {
+    position: absolute;
+    width: 510px;
+    height: 510px;
+    background: transparent;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    top: 11%;
+    left: 11%;
+    animation: satrun 14s linear infinite;
+}
+
+@keyframes satrun {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.satrun_img {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background: transparent;
+    border-radius: 50%;
+    top: 91%;
+    left: 46%;
+
+}
+
+.satrun_img img {
+    width: 119px;
+    height: 70px;
+}
+
+/* ============================================ */
+.jupiter {
+    position: absolute;
+    width: 460px;
+    height: 460px;
+    background: transparent;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    top: 15%;
+    left: 15%;
+    animation: jupiter 14s linear infinite;
+}
+
+@keyframes jupiter {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.jupiter_img {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background: transparent;
+    border-radius: 50%;
+    top: 77%;
+    left: 7%;
+
+}
+
+.jupiter_img img {
+    width: 75px;
+    height: 75px;
+}
+
+/* ===================================================== */
+.mars {
+    position: absolute;
+    width: 410px;
+    height: 410px;
+    background: transparent;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    top: 19%;
+    left: 19%;
+    animation: mars 14s linear infinite;
+}
+
+@keyframes mars {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.mars_img {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background: transparent;
+    border-radius: 50%;
+    top: 11%;
+    left: 81%;
+
+}
+
+.mars_img img {
+    width: 65px;
+    height: 65px;
+}
+
+/* ========================================= */
+.earth {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    background: transparent;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    top: 23%;
+    left: 23%;
+    animation: earth 14s linear infinite;
+}
+
+@keyframes earth {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.earth_img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border-radius: 50%;
+    top: 50%;
+    left: -7%;
+
+}
+
+.earth_img img {
+    width: 70px;
+    height: 70px;
+}
+
+/* ============================================ */
+.moon {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    top: 46%;
+    left: -11%;
+    animation: moon 9s linear infinite;
+}
+
+@keyframes moon {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.moon_img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    top: 11%;
+    left: 0%;
+
+}
+
+.moon_img img {
+    width: 20px;
+    height: 20px;
+}
+
+/* ============================================ */
+.venus {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: transparent;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    top: 32%;
+    left: 32%;
+    animation: uranus 12s linear infinite;
+}
+
+@keyframes venus {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.venus_img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border-radius: 50%;
+    top: 7%;
+    left: 7%;
+
+}
+
+.venus_img img {
+    width: 40px;
+    height: 40px;
+}
+
+/* ====================================== */
+.marcury {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    top: 36%;
+    left: 36%;
+    animation: marcury 12s linear infinite;
+}
+
+@keyframes marcury {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.marcury_img {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border-radius: 50%;
+    top: 11%;
+    left: 81%;
+
+}
+
+.marcury_img img {
+    width: 35px;
+    height: 35px;
+}
+
+/* ==================================== */
+.sun {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: transparent;
+    border-radius: 50%;
+    top: 43%;
+    left: 42%;
+    animation: sun 13s linear infinite;
+}
+
+@keyframes sun {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.sun img {
+    width: 117px;
+    height: 113px;
+}
